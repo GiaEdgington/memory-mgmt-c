@@ -6,6 +6,7 @@ int main(void){
     int vals[num];
     int i;
     char unit;
+    int convertion;
     for(i = 0; i < num; i++){
         scanf("%d", &vals[i]);
         int j=0;
@@ -13,6 +14,10 @@ int main(void){
             j++;
         }
         unit = vals[i][j+1];
+
+        if(unit == 'g'){
+            //convertion = //
+        }
     }
     
     return 0;
