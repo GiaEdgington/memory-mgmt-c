@@ -18,7 +18,7 @@ int main(void){
         unit = vals[i][j+1];
         
         if(unit =='m'){
-            printf('%.6lf', )
+            //printf('%.6lf', );
         }
     }
     
