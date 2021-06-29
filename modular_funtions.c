@@ -3,20 +3,22 @@
 int main(void){
     int num;
     scanf("%d", &num);
-    int vals[num];
+    double vals[num];
     int i;
     char unit;
-    int convertion;
+    double feet = 3.2808;
+    int length;
     for(i = 0; i < num; i++){
-        scanf("%d", &vals[i]);
+        scanf("%lf", &vals[i]);
         int j=0;
         while(vals[i][j] != '\0'){
             j++;
         }
+        length = length[j]+1;
         unit = vals[i][j+1];
-
-        if(unit == 'g'){
-            //convertion = //
+        
+        if(unit =='m'){
+            printf('%.6lf', )
         }
     }
     
